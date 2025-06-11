@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs</title>
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="shortcut icon" href="../images/THE SEAT NEW.jpg">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" id="maright"><img src="../images/THE SEAT NEW.png" class="hdImg"></a>
+        <ul class="horizontal-list">
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="whoweare.html">About Us</a></li>
+            <li><a href="FAQ.html">FAQs</a></li>
+        </ul>
+        <div id="menuToggleContainer">
+            <nav role="navigation">
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <a href="../index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="menu.html">
+                            <li>Menu</li>
+                        </a>
+                        <a href="blog.html">
+                            <li>Blog</li>
+                        </a>
+                        <a href="contactus.html">
+                            <li>Contact US</li>
+                        </a>
+                        <a href="whoweare.html">
+                            <li>Who We are</li>
+                        </a>
+                        <a href="FAQ.html">
+                            <li>FAQs</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="background-container">
+            <img class="background-image" src="../images/FAQbg.jpg" alt="Welcome Background">
+            <div class="search-container">
+                <div class="searchbar">
+                    <img src="../images/Icons/searchIcon.png" alt="Search Icon" class="search-icon">
+                    <input type="text" placeholder="Search" id="faqSearch" oninput="searchFAQs()">
+                </div>
+            </div>
+        </div>
+
+        <div class="FAQContainer">
+            <h1>Frequently Asked Question’s</h1>
+            <p>Curious about The Seat Cafe? We've compiled answers to some of your most frequently asked questions. For
+                more information, feel free to reach out!
+            </p>
+
+            <div>
+                <button type="button" class="FAQcollapsible">What are your operating hours?</button>
+                <div class="FAQcontent">
+                    <p>Our coffee shop is open from Monday—Thursday: 11am-10pm, Friday—Sunday: 10am-10:30pm.</p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">Can I place an order online?</button>
+                <div class="FAQcontent">
+                    <p>Yes, we currently have a delivery partnership with Food Panda.</p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">Are your cakes and pastries made in-house?</button>
+                <div class="FAQcontent">
+                    <p>All our cakes and pastries are freshly baked in-house every day using high-quality ingredients.
+                    </p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">Do you cater for events or large orders?</button>
+                <div class="FAQcontent">
+                    <p>Unfortunately, we don't offer catering services. However, you can place large orders by
+                        contacting
+                        us directly, and we'll be happy to assist with your needs.
+                    </p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">Do you offer any non-coffee beverages?</button>
+                <div class="FAQcontent">
+                    <p>
+                        Yes, we have a variety of teas, matchas, and fresh juices available. We also offer a selection
+                        of soft drinks.
+                    </p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">Is there free Wi-Fi available?</button>
+                <div class="FAQcontent">
+                    <p>
+                        Yes, we offer free Wi-Fi for all our customers. Just ask our staff for the password.
+                    </p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">Can I reserve a table?</button>
+                <div class="FAQcontent">
+                    <p>
+                        We do not take reservations for regular seating, but we do have a community table that can be
+                        reserved for small group gatherings. Please contact us to check availability.
+                    </p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">What safety measures are you taking in response to
+                    COVID-19?</button>
+                <div class="FAQcontent">
+                    <p>
+                        We are following all local health guidelines, which include regular sanitation, social
+                        distancing, and contactless payment options. Our staff members wear masks, and we encourage
+                        customers to do the same.
+                    </p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">Can I customize my order?</button>
+                <div class="FAQcontent">
+                    <p>
+                        While we can't customize orders, you can add additional items to your order. Please let us know
+                        what you need when placing your order, and we'll do our best to accommodate.
+                    </p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">Do you have parking available?</button>
+                <div class="FAQcontent">
+                    <p>
+                        Yes, we have a parking lot adjacent to the shop with ample parking space for our customers.
+                    </p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">Is your coffee shop pet-friendly?</button>
+                <div class="FAQcontent">
+                    <p>
+                        Yes, we are a pet-friendly coffee shop! Well-behaved dogs are welcome in our outdoor seating
+                        area. We even have water bowls and treats available for your furry friends.
+                    </p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">How can I provide feedback about my experience?</button>
+                <div class="FAQcontent">
+                    <p>
+                        We value your feedback! You can provide feedback directly on our website, through our social
+                        media channels, or by speaking with a manager in-store.
+                    </p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">Are you currently hiring?</button>
+                <div class="FAQcontent">
+                    <p>
+                        Yes, we are always looking for enthusiastic individuals to join our team. Please visit our
+                        Careers page on our website for current job openings and application instructions.
+                    </p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">Do you offer any discounts or loyalty programs?</button>
+                <div class="FAQcontent">
+                    <p>
+                        Yes, we offer a loyalty program where you can earn points with each purchase that can be
+                        redeemed for discounts and free items. Additionally, we occasionally have special promotions and
+                        discounts like student discounts, so be sure to follow us on social media.
+                    </p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">What methods of payment do you accept?</button>
+                <div class="FAQcontent">
+                    <p>
+                        We accept all major credit and debit cards, as well as Gcash. Cash payments are also accepted.
+                    </p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">Is your coffee shop accessible for people with
+                    disabilities? </button>
+                <div class="FAQcontent">
+                    <p>
+                        Yes, our coffee shop is fully accessible, with ramps and accessible seating areas to accommodate
+                        all our customers comfortably.
+                    </p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">Can I bring my own reusable cup?</button>
+                <div class="FAQcontent">
+                    <p>
+                        Absolutely! We encourage customers to bring their own reusable cups and offer a small discount
+                        as a thank-you for helping us reduce waste.
+                    </p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">Do you offer any sugar-free options?</button>
+                <div class="FAQcontent">
+                    <p>
+                        Yes, we have sugar-free syrups available for our coffee drinks. Just let us know your preference
+                        when placing your order.
+                    </p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">Do you have outdoor seating?</button>
+                <div class="FAQcontent">
+                    <p>
+                        Yes, we have outdoor seating. You can enjoy the breeze outside while sipping coffee.
+                    </p>
+                </div>
+
+                <button type="button" class="FAQcollapsible">Can I order a cake or pastry for a special
+                    occasion?</button>
+                <div class="FAQcontent">
+                    <p>
+                        Yes, we accept special orders for cakes and pastries for birthdays, anniversaries, and other
+                        special occasions. Please contact us in advance to discuss your requirements and place your
+                        order.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="mainFooter">
+            <div class="maindiv">
+                <a href="../index.html"><img src="../images/THE SEAT NEW.png" class="logoFooter"></a>
+                <p style="font-family: inter;">
+                    A space reimagining what it means to design,<br> create, serve and to host.
+                </p>
+                <br>
+                <p><strong style="font-family: inter;">Find us on:</strong></p>
+                <a href="https://www.facebook.com/theseat.coffee/" target="_blank" rel="noopener noreferrer"><img src="../images/Icons/facebook.png"
+                        id="socmedLogo"></a>
+                <a href="https://www.instagram.com/theseat.coffee" target="_blank" rel="noopener noreferrer"><img src="../images/Icons/instagram.png"
+                        id="socmedLogo2"></a>
+                <a href="tel:+63 917 647 1366" target="_blank" rel="noopener noreferrer"><img src="../images/Icons/phone-call.png" id="socmedLogo2"></a>
+                <a href="https://www.waze.com/live-map/directions?to=ll.14.886196%2C120.860403"><img
+                        src="../images/Icons/waze.png" id="socmedLogo2"></a>
+
+                <p>Any questions? Let us know by <a href="contactus.html">contacting us</a>.</p>
+            </div>
+            <div id="navfooterContainer">
+                <div id="item1">
+                    <ul id="navFooter">
+                        <strong>About Us</strong>
+                        <li><a href="whoweare.html">Who We Are</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div id="item2">
+                    <ul id="navFooter">
+                        <strong>Reach Us</strong>
+                        <li><a href="https://www.waze.com/live-map/directions?to=ll.14.886196%2C120.860403" target="_blank" rel="noopener noreferrer">GF R&H
+                                bldg., #265 Gov. Padilla Road, Cor. Mariano St., Plaridel, Philippines, 3004</a></li>
+                    </ul>
+                </div>
+                <div id="item3">
+                    <ul id="navFooter">
+                        <strong>Delivery Partner</strong>
+                        <br>
+                        <li><a href="https://www.foodpanda.ph/restaurant/u2qv/the-seat-cafe-pantry-poblacion" target="_blank" rel="noopener noreferrer">
+                                <img src="../images/Icons/tryfood.png" id="socmedLogo3"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <p>theseat.cafe © Copyright 2024. All Rights Reserved.
+                <span id="developer">Adriano | Bernardo | Quindoza.</span>
+            </p>
+        </div>
+    </footer>
+</body>
+
+<script>
+    var coll = document.getElementsByClassName("FAQcollapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+
+    document.getElementById("faqSearch").addEventListener("keydown", function (event) {
+        if (event.key === "Enter") {
+            searchFAQs(true);  // Call searchFAQs and scroll to the first match
+        } else {
+            searchFAQs(false);  // Call searchFAQs without scrolling
+        }
+    });
+
+    function searchFAQs(scrollToMatch) {
+        var input, filter, faqContainer, questions, i, txtValue;
+        input = document.getElementById("faqSearch");
+        filter = input.value.toLowerCase();
+        faqContainer = document.getElementsByClassName("FAQContainer")[0];
+        questions = faqContainer.getElementsByClassName("FAQcollapsible");
+
+        var firstMatch = null;  // Variable to store the first matching element
+
+        for (i = 0; i < questions.length; i++) {
+            txtValue = questions[i].textContent || questions[i].innerText;
+            if (txtValue.toLowerCase().indexOf(filter) > -1) {
+                questions[i].style.backgroundColor = "#605035"; // Highlight the matching question
+                if (firstMatch === null) {
+                    firstMatch = questions[i];  // Store the first matching element
+                }
+            } else {
+                questions[i].style.backgroundColor = ""; // Remove highlight if no match
+            }
+        }
+        if (scrollToMatch && firstMatch !== null) {
+            firstMatch.scrollIntoView({ behavior: "smooth", block: "start" });
+            firstMatch.click(); // Optionally open the collapsible section
+        }
+    }
+</script>
+
+</html>
